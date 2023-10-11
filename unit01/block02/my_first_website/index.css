@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(0, 94, 96);
+}
+
+h1 {
+    text-decoration: underline;
+    text-align: center;
+    color: antiquewhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+p {
+    text-align: center;
+    color: rgb(231, 235, 13);
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 500;
+    font-style: oblique;
+}
