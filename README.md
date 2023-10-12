@@ -3,6 +3,7 @@
 
 | Week | Date     | Lesson                                                          |
 |:----:|----------|-----------------------------------------------------------------|
+|      |          | Unit 1: Frontend Fundamentals (10/02/23 - 11/01/23)             |
 |  1   | 10/2/23  | Block 1: Orientation                                            |
 |      | 10/4/23  | Block 2: My First Website                                       |
 |      | 10/5/23  | Block 3: Command Line Interface                                 |
@@ -17,6 +18,7 @@
 |      | 10/26/23 | Block 11: Working in a Development Team                         |
 |  5   | 10/30/23 | Block 12: Career Simulation - Building a Personal Website Pt II |
 |      | 11/1/23  | \-----Career Simulation Work Day                                |
+|      |          | Unit 2: Frontend Development (11/02/23 - 12/7/23)               |
 |      | 11/2/23  | Block 13: Conditionals & Comparisons                            |
 |  6   | 11/6/23  | Block 14: Loops & Arrays                                        |
 |      | 11/8/23  | Block 15: Objects and Methods                                   |
@@ -33,6 +35,7 @@
 |  10  | 12/4/23  | \-----Career Simulation / Career Preparation Work Day           |
 |      | 12/6/23  | \-----Career Simulation / Career Preparation Work Day           |
 |      | 12/7/23  | \-----Career Simulation / Career Preparation Work Day           |
+|      |          | Unit 3: State Management (12/11/23 - 01/18/24)                  |
 |  11  | 12/11/23 | Block 24A: Functional Programming                               |
 |      | 12/13/23 | Block 24: Intro to React                                        |
 |      | 12/14/23 | Block 25: State and Props                                       |
@@ -48,6 +51,7 @@
 |  15  | 01/15/24 | Martin Luther King Jr. Day                                      |
 |      | 01/17/24 | Block 29: Puppy Bowl React                                      |
 |      | 01/18/24 | Block 30: Career Simulation / Career Preparation                |
+|      |          | Unit 4: Backend Development (01/22/24 - 02/12/24)               |
 |  16  | 01/22/24 | Block 31: Backend Fundamentals                                  |
 |      | 01/24/24 | Block 32: SQL                                                   |
 |      | 01/25/24 | Block 33: API Routes                                            |
@@ -58,6 +62,7 @@
 |      | 02/07/24 | Block 34 E: Writing Backend Tests                               |
 |      | 02/08/24 | Block 34F: Career Simulation Pt 2                               |
 |  19  | 02/12/24 | \-----Career Simulation Work Day                                |
+|      |          | Unit 5: Fullstack Development (02/14/24 - 04/18/24)             |
 |      | 02/14/24 | Capstone/ Project Work                                          |
 |      | 02/15/24 | Capstone/ Project Work                                          |
 |  20  | 02/19/24 | Capstone/ Project Work                                          |
