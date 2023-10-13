@@ -1,122 +1,128 @@
 body {
     background-color: rgba(89,186,191, 0.4);
-    /*width: 70%;*/
+    width: 60%;
 }
 header {
-    text-align: center;
     background-color: #22598A;
     border-radius: 10px;
-    margin: 5px;
-    padding: 2px 3px 10px 3px;
-    box-shadow: 10px 5px 5px #22598a;
     border: 3px solid #0A1A29;
+    box-shadow: 10px 5px 5px #22598a;
+    margin: 10px 10px 20px 10px;
+    padding: 2px 3px 10px 3px;
+    text-align: center;
 }
 h1 {
-    font-size: 50px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 800;
     color: #F8FFE2;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    font-weight: 800;
 }
 h2 {
-    font-size: 40px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: bolder;
     background-color: #22598A;
-    color: #faf5dc;
-    padding: 30px; 
-    margin: 10px auto 10px 10px;
     border-radius: 10px;
-    box-shadow: 10px 5px 5px #22598a;
     border: 3px solid #0A1A29;
+    box-shadow: 10px 5px 5px #22598a;
+    color: #faf5dc;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    margin: 10px auto 10px 10px;
+    padding: 30px; 
 }
 h3 {
-    font-size: 30px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: bold;
     color: #22598A;
-    padding: 5px auto 5px 5px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
     margin: 15px auto 10px 5px;
+    padding: 5px auto 5px 5px;
 }
 li {
-    font-size: 20px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 600;
     color: #22598A;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
 }
 button {
     background-color: #F8FFE2;
-    border: 3px solid #F8FFE2;
     border-radius: 10px;
-    padding: 15px;
-    margin: 10px;
+    border: 3px solid #F8FFE2;
     box-shadow: 10px 5px 5px #0A1A29;
+    margin: 20px;
+    padding: 15px;
 }
 a {
-    font-size: 28px;
-    text-decoration: none;
-    font-weight: bold;
     color: #22598A;
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
 }
 img {
-    height: 250px;
-    width: auto;
-    display: inline-block;
-    margin-top: 10px;
-    margin-left: 25px;
-    box-shadow: 10px 5px 5px #22598a;
     border-radius: 10px;
+    box-shadow: 10px 5px 5px #22598a;
+    display: inline-block;
+    height: 250px;
+    margin:40px 20px 40px 20px;
+    width: 450px;
+}
+.container {
+    align-content: center;
+    display: flex;
+    height: 330px;
+    justify-content: center;
+    width: 1500px;
 }
 .pantryone {
-    display: inline-block;
     background-color: #faf5dc;
+    border-radius: 10px; 
     border: 3px solid #22598A;
     box-shadow: 10px 5px 5px #22598a;
-    padding: 33.5px 80px 33.5px 20px; 
-    margin: 30px 20px 40px 20px;
-    border-radius: 10px; 
+    display: inline-block;
+    margin: 40px 20px 40px 20px;
+    padding: 23px 95.031px 43px 20px;
 }
 .pantrytwo {
-    display: inline-block;
     background-color: #faf5dc;
+    border-radius: 10px; 
     border: 3px solid #22598A;
     box-shadow: 10px 5px 5px #22598a;
-    padding: 33.5px 190px 33.5px 20px; 
-    margin: 30px 20px 40px 20px;
-    border-radius: 10px; 
+    display: inline-block;
+    margin: 40px 20px 40px 20px;
+    padding: 23px 246.141px 43px 20px;
 }
 .refrigeratorone {
-    display: inline-block;
     background-color: #faf5dc;
+    border-radius: 10px;
     border: 3px solid #22598A;
     box-shadow: 10px 5px 5px #22598a;
-    padding: 42px 238.5px 10px 20px; 
-    margin: 30px 20px 40px 20px;
-    border-radius: 10px;
+    display: inline-block;
+    margin: 40px 20px 40px 20px;
+    padding: 23px 238.5px 43px 20px; 
 }
 .refrigeratortwo {
-    display: inline-block;
     background-color: #faf5dc;
+    border-radius: 10px;
     border: 3px solid #22598A;
     box-shadow: 10px 5px 5px #22598a;
-    padding: 42px 140px 10px 20px; 
-    margin: 30px 20px 40px 20px;
-    border-radius: 10px;
+    display: inline-block;
+    margin: 40px 20px 40px 20px;
+    padding: 23px 216.094px 43px 20px; 
 }
 .freezerone {
-    display: inline-block;
     background-color: #faf5dc;
+    border-radius: 10px;
     border: 3px solid #22598A;
     box-shadow: 10px 5px 5px #22598a;
-    padding: 42px 25px 10px 20px; 
-    margin: 30px 20px 40px 20px;
-    border-radius: 10px;
+    display: inline-block;
+    margin: 40px 20px 40px 20px;
+    padding: 23px 44.547px 43px 20px; 
 }
 .freezertwo {
-    display: inline-block;
     background-color: #faf5dc;
+    border-radius: 10px;
     border: 3px solid #22598A;
     box-shadow: 10px 5px 5px #22598a;
-    padding: 42px 25px 10px 20px; 
-    margin: 30px 20px 40px 20px;
-    border-radius: 10px;
+    display: inline-block;
+    margin: 40px 20px 40px 20px;
+    padding: 23px 75.688px 43px 20px; 
 }
