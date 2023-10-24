@@ -21,6 +21,24 @@ main {
     flex-wrap: wrap;
 }
 
+form {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    bottom: 25em;
+    margin-left: 2em;
+}
+
+h2 {
+    width: 100%;
+    justify-content: center;
+}
+
+section {
+    width: 100%;
+    margin: 0.3em;
+}
+
 .box01, .box02, .box03 {
     height: 10em;
     width: calc(100% / 3 - 1rem);
@@ -137,4 +155,101 @@ main {
     position: relative;
     bottom: 16em;
     left: 47em;
+}
+
+.email {
+    margin-right: 2em;
+}
+
+.thankyoupage {
+    background-color: #153A70;
+}
+
+.thankyou {
+    text-align: center;
+    position: relative;
+    top: 8em;
+    left: 12em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+    border: 0.75em solid rgba(233,242,221,0.3);
+    padding: 3em;
+    width: 40%;
+    color: rgba(233,242,221,0.3);
+}
+
+@media (max-width: 480px) {
+    body {
+        flex-direction: column;
+    }
+    form {
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        bottom: 18em;
+        margin-left: 2em;
+    }
+    .circle04 {
+        border-radius: 50%;
+        position: relative;
+        bottom: 42em;
+        left: 13em;
+    }
+    .triangle01 {
+        width: 0;
+        height: 0;
+        border-left: 100px solid transparent;
+        border-right: 100px solid transparent;
+        border-bottom: 200px solid #822808;
+        z-index: 3;
+        position: relative;
+        bottom: 21em;
+        left: 8em;
+    }
+    .triangle02 {
+        width: 0;
+        height: 0;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-bottom: 100px solid #827C3F;
+        z-index: 4;
+        position: relative;
+        bottom: 14.75em;
+        left: 4em;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px ) {
+    body {
+        flex-direction: column;
+    }
+    form {
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        bottom: 32em;
+        margin-left: 2em;
+    }
+    .triangle01 {
+        width: 0;
+        height: 0;
+        border-left: 150px solid transparent;
+        border-right: 150px solid transparent;
+        border-bottom: 300px solid #822808;
+        z-index: 3;
+        position: relative;
+        bottom: 22em;
+        left: 8em;
+    }
+    .triangle02 {
+        width: 0;
+        height: 0;
+        border-left: 100px solid transparent;
+        border-right: 100px solid transparent;
+        border-bottom: 200px solid #827C3F;
+        z-index: 4;
+        position: relative;
+        bottom: 34.5em;
+        left: 34em;
+    }
 }
