@@ -1,0 +1,140 @@
+header {
+    background-color: paleturquoise;
+    height: 100%;
+    padding: 1rem;
+    box-shadow: 10px 5px 5px;
+}
+
+h1 {
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 3rem;
+    font-weight: bolder;
+    color: #545330;
+    text-shadow: 2px 2px 3px black;
+}
+
+main {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+.box01, .box02, .box03 {
+    height: 10em;
+    width: calc(100% / 3 - 1rem);
+    margin: 0.5rem;
+    background-color: #167048;
+}
+
+.box01, .box02, .box03, .box04, .box05, .box06 {
+    z-index: 1;
+    box-shadow: 10px 5px 5px; 
+}
+
+.box02 {
+    background-color: #6DFF88;
+}
+
+.box04 {
+    height: 30em;
+    width: 100%;
+    background-color: #146E70;
+    margin: 0.5rem;
+}
+
+.box05 {
+    height: 2em;
+    width: 100%;
+    background-color: #153A70;
+    margin: 0.5rem;
+}
+
+.circle01, .circle02, .circle03, .circle04 {
+    width: 2em;
+    height: 2em;
+}
+
+.circle05, .circle06 {
+    width: 5em;
+    height: 5em;
+}
+
+.circle01, .circle02, .circle03, .circle04, .circle05, .circle06 {
+    z-index: 2;
+    box-shadow: 10px 5px 5px;
+}
+
+.circle01, .circle03, .circle06 {
+    background-color: #83CC40;
+}
+
+.circle02, .circle04, .circle05 {
+    background-color: #823D3D;
+}
+
+.circle01 {
+    border-radius: 50%;
+    position: relative;
+    bottom: 42em;
+    left: 2em;
+}
+
+.circle02 {
+    border-radius: 50%;
+    position: relative;
+    bottom: 30em;
+    left: 2em;
+}
+
+.circle03 {
+    border-radius: 50%;
+    position: relative;
+    bottom: 44em;
+    left: 10em;
+}
+
+.circle04 {
+    border-radius: 50%;
+    position: relative;
+    bottom: 42em;
+    left: 20em;
+}
+
+.circle05 {
+    border-radius: 50%;
+    position: relative;
+    bottom: 40em;
+}
+
+.circle06 {
+    border-radius: 50%;
+    position: relative;
+    bottom: 35em;
+    left: 4em;
+}
+
+.triangle01 {
+    width: 0;
+    height: 0;
+    border-left: 200px solid transparent;
+    border-right: 200px solid transparent;
+    border-bottom: 400px solid #822808;
+    z-index: 3;
+    position: relative;
+    bottom: 28.5em;
+    left: 55em;
+}
+
+.triangle02 {
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 200px solid #827C3F;
+    z-index: 4;
+    position: relative;
+    bottom: 16em;
+    left: 47em;
+}
